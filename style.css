@@ -107,8 +107,32 @@ form{
 .container{
     background-color: black;
     padding-left: 58px;
+    padding-right: 10px;
 }
 
 .Contact-Us h1{
     color: #FCAF02;
+}
+
+.tables{
+    color: #FCAF02;
+    padding-bottom: 60px;
+}
+table, thead{
+    border: 2px solid #FCAF02;
+    width: 100%;
+}
+th,td{
+    border: 2px solid #FCAF02;
+}
+table,tr,td,th{
+    border-collapse: collapse;
+    padding: 25px;
+}
+tfoot td{
+    border: 2px solid #000000;
+}
+tfoot{
+    color: black;
+    background-color: #FCAF02;
 }
